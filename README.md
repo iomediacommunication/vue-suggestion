@@ -212,6 +212,7 @@ Vue.component('vue-suggestion', VueSuggestion.VueSuggestion)
   | `maxLen` | `Number` | `100` | Native input 'maxlength' attribute |
   | `disabled` | `Boolean` | `false` | Disable the input |
   | `placeholder` | `String` | `''` | Placeholder of the input |
+  | `ariaLabel` | `String` | `''` | aria-label of the input |
 
 ### Events
 

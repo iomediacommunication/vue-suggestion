@@ -8,6 +8,7 @@
         :placeholder="placeholder"
         :disabled="disabled"
         :maxlength="maxLen"
+        :aria-label="ariaLabel"
         @blur="blur"
         @focus="focus"
         @input="inputChange"
@@ -129,6 +130,10 @@ export default {
     suggestionItemClasses: {
       type: String,
       default: () => getDefault('suggestionItemClasses'),
+    },
+    ariaLabel: {
+      type: String,
+      default: () => getDefault('arialLable'),
     },
   },
   data() {

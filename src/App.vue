@@ -7,7 +7,8 @@
       :items="items"
       :setLabel="setLabel"
       :itemTemplate="itemTemplate"
-      maxLen="20"
+      :maxLen="20"
+      ariaLabel="AriaLabel"
       @changed="inputChange"
     ></vue-suggestion>
     <template v-if="item && item.id">
